@@ -20,7 +20,7 @@ int main()
             is_prime[j] = false;
         }
     }
-    int no_of_primes = 0;
+    int no_of_primes = 0; // Number of primes
     for(int i = 2;i <= n;i++)
     {
         if(is_prime[i])
