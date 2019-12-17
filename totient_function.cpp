@@ -1,5 +1,10 @@
 #include <iostream>
 
+// We have to find the numbers which are coprime with n and less than equal to n
+// For that we use formula of totient function which is
+// phi(n) = n * (1 - 1/p1) * (1 - 1/p2) .... * (1 - 1/pk)
+// where p1, p2,...,pk are prime divisors of n
+
 int totient(int n)
 {
     int result = n;
